@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('mobileLandingpage', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router'])
-  .config(function ($stateProvider, $urlRouterProvider) {
+  .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
+    $locationProvider.html5Mode(true).hashPrefix('!');
     $stateProvider
       .state('home', {
         url: '/',
@@ -10,5 +11,4 @@ angular.module('mobileLandingpage', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSan
       });
 
     $urlRouterProvider.otherwise('/');
-  })
-;
+  });
