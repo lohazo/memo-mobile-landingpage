@@ -47,21 +47,27 @@ body {
     margin-bottom: 10px;
     .cta-button-icon {
       display: inline-block;
-      width: 41px;
-      height: 50px;
+      width: 22px;
+      height: 25px;
       &.ios {
         background: url("../assets/images/ios.png") no-repeat;
+        background-size: contain;
       }
       &.android {
         background: url("../assets/images/android.png") no-repeat;
+        background-size: contain;
       }
+    }
+    .cta-button-title {
+      display: block;
+      margin-bottom: 5px;
     }
     .cta-button-text {
       display: inline-block;
-      line-height: 40px;
+      line-height: 25px;
       vertical-align: middle;
-      margin-top: -40px;
-      margin-left: 10px;
+      margin-top: -5px;
+      margin-left: 5px;
     }
   }
   .cta-link {
