@@ -79,3 +79,44 @@ body {
     margin-bottom: 30px;
   }
 }
+
+/*-----------------------------------------------------------------------------*/
+
+.header{
+  background: url("../assets/images/hd.png") center repeat;
+  min-height:110px;
+}
+.header h3{
+  color: #FFF;
+  font-size:20px;
+  padding-top:8px;
+  display: block;
+  font-weight: 600;
+  strong{
+    font-size: 30px;
+  }
+}
+
+.text-friend-m {
+  margin-top: 20px;
+}
+.text-friend-m p.friend-m {
+  color: #333;
+  margin-bottom: 0;
+  display: block;
+  font-weight: 600;
+  strong{
+    color: #810c15;
+  }
+  img{
+    padding-right:5px;
+  }
+}
+.text-friend-m p.text-topica-m {
+  color: #666;
+  margin-top: 20px;
+  font-size: 15px;
+  span{
+    font-style: italic;
+  }
+}
