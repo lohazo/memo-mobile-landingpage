@@ -5,7 +5,7 @@ angular.module('mobileLandingpage', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSan
     $locationProvider.html5Mode(true).hashPrefix('!');
     $stateProvider
       .state('referral', {
-        url: '/referral',
+        url: '/referral/:data',
         templateUrl: 'app/referral/index.html',
         controller: 'IndexCtrl'
       })
