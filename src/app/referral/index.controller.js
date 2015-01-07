@@ -1,4 +1,10 @@
-'use strict';
+(function(angular) {
+  'use strict';
 
-angular.module('mobileLandingpage')
-  .controller('IndexCtrl', function($scope) {});
+  function IndexCtrl($scope) {
+
+  }
+
+  angular.module('mobileLandingpage')
+    .controller('IndexCtrl', ['$scope', IndexCtrl]);
+}(window.angular));
