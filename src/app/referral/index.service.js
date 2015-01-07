@@ -14,8 +14,11 @@
         referral_url: document.referrer,
         submitted_form_data: JSON.stringify(data)
       };
-      console.log(requestData);
-      return $http.post('http://eco-tracking.memo.edu.vn/users/track', requestData);
+      return $http.post('http://eco-tracking.memo.edu.vn/users/track', requestData)
+        .success(function() {})
+        .error(function() {
+
+        });
     };
 
     return Service;
