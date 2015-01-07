@@ -9,10 +9,8 @@
       var requestData = {
         name: eventName,
         cookie: 'mobile',
-        user_id: 'mobile_id',
         browsing_domain: document.URL,
-        referral_url: document.referrer,
-        submitted_form_data: JSON.stringify(data)
+        referrer_url: document.referrer
       };
       return $http.post('http://eco-tracking.memo.edu.vn/users/track', requestData)
         .success(function() {})
