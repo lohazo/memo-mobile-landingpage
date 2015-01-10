@@ -1,4 +1,8 @@
-'use strict';
+(function(angular) {
+  'use strict';
 
-angular.module('mobileLandingpage')
-  .controller('MainCtrl', function($scope) {});
+  function MainCtrl($scope) {}
+
+  angular.module('mobileLandingpage')
+    .controller('MainCtrl', ['$scope', MainCtrl]);
+}(window.angular));
