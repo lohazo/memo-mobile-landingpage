@@ -6,7 +6,6 @@
       restrict: 'EA',
       scope: true,
       link: function ($scope) {
-        console.log('Hit');
         $scope.track();
       },
       controller: 'TrackingLoadCtrl'
