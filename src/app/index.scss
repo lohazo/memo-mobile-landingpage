@@ -77,25 +77,28 @@ body {
     text-decoration: underline;
     margin-top: 15px;
     margin-bottom: 30px;
+    font-size: .8em;
   }
 }
 
 /*-----------------------------------------------------------------------------*/
-.content{
+.content {
   padding: 0 10px;
 }
-.header{
+
+.header {
   background: url("../assets/images/hd.png") center repeat;
-  min-height:110px;
+  min-height: 110px;
   padding: 0 10px;
 }
-.header h3{
+
+.header h3 {
   color: #FFF;
-  font-size:20px;
+  font-size: 20px;
   padding: 8px 10px 0;
   display: block;
   font-weight: 600;
-  strong{
+  strong {
     font-size: 30px;
   }
 }
@@ -103,23 +106,25 @@ body {
 .text-friend-m {
   margin-top: 20px;
 }
+
 .text-friend-m p.friend-m {
   color: #333;
   margin-bottom: 0;
   display: block;
   font-weight: 600;
-  strong{
+  strong {
     color: #810c15;
   }
-  img{
-    padding-right:5px;
+  img {
+    padding-right: 5px;
   }
 }
+
 .text-friend-m p.text-topica-m {
   color: #666;
   margin-top: 20px;
   font-size: 15px;
-  span{
+  span {
     font-style: italic;
   }
 }
