@@ -27,4 +27,4 @@
     .controller('TrackingLoadCtrl', ['$scope', 'TrackingService', TrackingLoadCtrl]);
   angular.module('tracking.load')
     .controller('trackingLoad', TrackingLoad);
-})
+}(window.angular));
