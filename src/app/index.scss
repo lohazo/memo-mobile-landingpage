@@ -81,15 +81,18 @@ body {
 }
 
 /*-----------------------------------------------------------------------------*/
-
+.content{
+  padding: 0 10px;
+}
 .header{
   background: url("../assets/images/hd.png") center repeat;
   min-height:110px;
+  padding: 0 10px;
 }
 .header h3{
   color: #FFF;
   font-size:20px;
-  padding-top:8px;
+  padding: 8px 10px 0;
   display: block;
   font-weight: 600;
   strong{
