@@ -1,6 +1,8 @@
 'use strict';
 
-angular.module('mobileLandingpage', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router'])
+angular.module('mobileLandingpage', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router',
+    'tracking'
+  ])
   .config(function($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
     $locationProvider.html5Mode(true).hashPrefix('!');
     $stateProvider
